@@ -13,5 +13,5 @@ def div(a, b):
 def add_x2(a, b, c):
     return a + b + c
 
-def sub_neg(a, b, c)
+def sub_neg(a, b, c):
     return a - b - c
