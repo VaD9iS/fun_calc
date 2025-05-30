@@ -15,7 +15,7 @@ class CalcTest(unittest.TestCase):
         print("TearDownClass")
         print("==================")
 
-# на курсах сказали что на версии 3.13 Python не срабатывает, пришлось закомментировать 
+# на курсах сказали что на версии 3.13 Python не срабатывает, пришлось закомментировать
     # def setUp(self):
     #     print("Set up for [" + self.shortDescription() + "]")
     #
@@ -38,6 +38,10 @@ class CalcTest(unittest.TestCase):
         print("id: " + self.id())
         self.assertEqual(calc.div(10, 2), 5)
 
+
+    def test_add_x2(self):
+        print("id: " + self.id())
+        self.assertEqual(calc.add_x2(5, 5, 5), 15)
 
 if __name__ == '__main__':
     unittest.main

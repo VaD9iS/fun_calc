@@ -10,3 +10,6 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
+def add_x2(a, b, c):
+    return a + b + c
+
