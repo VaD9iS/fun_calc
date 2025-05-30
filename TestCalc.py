@@ -43,5 +43,13 @@ class CalcTest(unittest.TestCase):
         print("id: " + self.id())
         self.assertEqual(calc.add_x2(5, 5, 5), 15)
 
+    def test_sub_neg(self):
+        print("id: " + self.id())
+        self.assertEqual(calc.sub_many(20, 5 ,3 ), 12)
+
+    def test_mul_many(self):
+        print("id: " + self.id())
+        self.assertEqual(calc.mul_many(5, 5, 5), 125)
+
 if __name__ == '__main__':
     unittest.main
