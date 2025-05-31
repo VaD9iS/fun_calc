@@ -51,5 +51,14 @@ class CalcTest(unittest.TestCase):
         print("id: " + self.id())
         self.assertEqual(calc.mul_many(5, 5, 5), 125)
 
+    def test_num_sum(self):
+        print("id: " + self.id())
+        self.assertEqual(calc.num_sum(20, 20, 2), 80)
+
+
+    def test_add_name(self):
+        print("id name:" + self.id())
+        self.assertEqual(calc.add_name('Vadim ', 'Zubov'), 'Vadim Zubov')
+
 if __name__ == '__main__':
     unittest.main

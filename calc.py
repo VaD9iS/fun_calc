@@ -18,3 +18,9 @@ def sub_many(a, b, c):
 
 def mul_many(a, b, c):
     return a * b * c
+
+def num_sum(a, b, c):
+    return (a + b) * 2
+
+def add_name(a,b):
+    return a + b
